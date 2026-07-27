@@ -183,4 +183,46 @@ margin-left: auto;
 margin-right: auto;
     }
 }
-    
+/* Life on the farm */
+.gallery-swiper{
+width: 200px;
+margin-left: auto;
+margin-right: auto;
+}
+.life-container{
+    position: relative;
+}
+.gallery-navigation{
+display: flex;
+justify-content: space-between;
+}
+.gallery-button{
+    border: none;
+    background-color: inherit;
+}
+.gallery-button-prev{
+    position: absolute;
+        top: 50%;
+        left: 6%;
+}
+.gallery-button-next{
+    position: absolute;
+        top: 50%;
+        right: 6%;
+}
+@media only screen and (min-width: 1440px) {
+.gallery-swiper {
+        width: 1128px;
+    }
+.gallery-button-prev {
+    position: absolute;
+    top: 55%;
+    left: 6%;
+}
+
+.gallery-button-next {
+    position: absolute;
+    top: 55%;
+    right: 6%;
+}
+}
