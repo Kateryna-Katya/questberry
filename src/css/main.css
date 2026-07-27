@@ -226,3 +226,171 @@ justify-content: space-between;
     right: 6%;
 }
 }
+/* Player Reviews */
+.reviews-section{
+background: #084460;
+}
+.reviews-section h2{
+    color: #fff;
+}
+.reviews-list{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.reviews-item{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+border: 1px solid #e5e7eb;
+    border-radius: 16px;
+    padding: 20px;
+    width: 327px;
+    height: auto;
+box-shadow: 0 1px 2px -1px rgba(0, 0, 0, 0.1), 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+    background: rgba(255, 255, 255, 0.1);
+}
+.reviews-item-wrpper{
+display: flex;
+align-items: start;
+justify-content: start;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.5;
+    color: #fff;
+    gap: 6px;
+}
+.reviews-item-wrpper img{
+    height: 24px;
+}
+.reviews-item-text{
+font-size: 16px;
+    line-height: 1.25;
+    color: #fff;
+}
+@media only screen and (min-width: 1440px) {
+ .reviews-list{
+width: 1176px;
+    gap: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.reviews-item{
+padding: 24px 40px;
+    width: 1176px;
+}
+.reviews-item-wrpper{
+font-weight: 500;
+    font-size: 32px;
+    line-height: 1.3125;
+}
+.reviews-item-wrpper img{
+    height: 32px;
+}
+.reviews-item-text{
+font-size: 24px;
+    line-height: 1.25;
+}   
+.reviews-container{
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+}
+/* Helpful info */
+.faq-container{
+    padding-left: 16px;
+    padding-right: 16px;
+}
+.faq-acc {
+    display: flex;
+    flex-direction: column;
+    width: 343px;
+    margin: 0 auto;
+    gap: 12px;
+
+}
+
+.faq-acc-el {
+    position: relative;
+    transition: margin-bottom 0.3s ease;
+    border: 1px solid #2f3254;
+    border-radius: 12px;
+background: #084460;
+padding: 16px;
+}
+
+
+.faq-acc-el-title {
+    margin-bottom: 0;
+}
+
+.faq-acc-el-trigger {
+    border: none;
+    background: inherit;
+    width: 100%;
+font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.28571;
+    color: #fff;
+    margin-bottom: 0;
+    cursor: pointer;
+    box-sizing: border-box;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+.faq-acc-arr {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s ease;
+    border: none;
+}
+
+.faq-acc-arr.is-hidden {
+    display: none;
+}
+
+.faq-acc-el.open .faq-acc-arr {
+    transform: rotate(180deg);
+}
+
+.faq-acc-el-descr-frame {
+    background: inherit;
+    text-align: left;
+    overflow: hidden;
+    color: #fff;
+    max-height: 0;
+    opacity: 0;
+    transition: max-height 0.3s ease, opacity 0.3s ease, border-bottom 0.3s ease;
+}
+
+.faq-acc-el.js-enabled .faq-acc-el-descr-frame {
+    visibility: hidden;
+}
+
+.faq-acc-el.open .faq-acc-el-descr-frame {
+    visibility: visible;
+    opacity: 1;
+    border: none;
+    background: none;
+    color: #fff;
+    padding-top: 16px;
+    text-align: left;
+    max-height: 500px;
+}
+
+@media only screen and (min-width: 1440px) {
+
+    .faq-acc {
+width: 1120px;
+    }
+.faq-acc-el-trigger{
+font-size: 20px;
+}
+}
