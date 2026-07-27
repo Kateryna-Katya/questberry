@@ -107,3 +107,20 @@ justify-content: center;
 width: 393px;
 }   
 }
+/* Cozy but engaging */
+.cozy-section{
+background: #084460;
+}
+.cozy-section h2{
+color: #fff;
+}
+.cozy-section p{
+color: #fff;
+}
+@media only screen and (min-width: 1440px) {
+.cozy-section p{
+width: 1000px;
+margin-left: auto;
+margin-right: auto;
+}    
+}
