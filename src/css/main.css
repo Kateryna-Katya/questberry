@@ -49,9 +49,6 @@ background: #073449;
     background-size: 100% 699px;
     height: 827px;
 }
-.home-container{
-    padding-left: 64px;
-}
 .home-wrapper{
     margin-top: 202px;
     width: 892px;
@@ -71,4 +68,12 @@ font-weight: 500;
     margin-left: 0;
 width: 337px;
 }  
+}
+/* Relaxed gameplay with real progression */
+@media only screen and (min-width: 1440px) {
+.relaxed-section p{
+width: 1280px;
+margin-left: auto;
+margin-right: auto;
+}
 }
