@@ -124,3 +124,63 @@ margin-left: auto;
 margin-right: auto;
 }    
 }
+/* Why players stay */
+.why-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.why-item{
+border: 1px solid #e5e7eb;
+    border-radius: 16px;
+    padding: 20px;
+    width: 327px;
+    height: auto;
+    box-shadow: 0 1px 2px -1px rgba(0, 0, 0, 0.1), 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+        background: #fff;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.5;
+    text-align: center;
+}
+@media only screen and (min-width: 1440px) {
+.why-list{
+width: 850px;
+margin-left: auto;
+margin-right: auto;
+gap: 40px;
+column-gap: 64px;
+flex-wrap: wrap;
+height: 725px;
+}
+.why-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+padding: 24px;
+    width: 393px;
+    height: 180px;
+font-size: 32px;
+    line-height: 1.3125;
+}    
+}
+/* Play together,
+grow together */
+.play-section{
+background: #084460;
+}
+.play-section h2{
+color: #fff;
+}
+.play-section p{
+color: #fff;
+}
+@media only screen and (min-width: 1440px) {
+.play-section p {
+width: 1048px;
+margin-left: auto;
+margin-right: auto;
+    }
+}
+    
